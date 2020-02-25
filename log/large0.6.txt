@@ -1,0 +1,363 @@
+Namespace(agg_path='data/gpt2-large-docs.pkl', agg_ratio=0.6, batch_size=1, batch_size_test=31, epoch=1, load_path=None, min_map=0.31, model='cedr_knrm', name='large0.6', oversample=5, split=[1, 2, 3, 4, 5], test=False, verbose=False)
+Loading [Pickle|data/gpt2-large-docs.pkl] ... Finish! (00h00m00s)
+Loading [Pickle|data/robust04/split_1/prepro.train.pkl] ... Finish! (00h00m02s)
+Loading [Pickle|data/robust04/split_1/prepro.test.pkl] ... Finish! (00h00m00s)
+
+[ MAP ] 0.198700
+[ P_10 ] 0.326000
+[ P_20 ] 0.288000
+[ NDCG_CUT_10 ] 0.355300
+[ NDCG_CUT_20 ] 0.343400
+E0: loss 0.2224
+
+[ MAP ] 0.253900
+[ P_10 ] 0.386000
+[ P_20 ] 0.324000
+[ NDCG_CUT_10 ] 0.419700
+[ NDCG_CUT_20 ] 0.394800
+E0: loss 0.0947
+
+[ MAP ] 0.264400
+[ P_10 ] 0.402000
+[ P_20 ] 0.353000
+[ NDCG_CUT_10 ] 0.436000
+[ NDCG_CUT_20 ] 0.426700
+E0: loss 0.0684
+
+[ MAP ] 0.292900
+[ P_10 ] 0.456000
+[ P_20 ] 0.390000
+[ NDCG_CUT_10 ] 0.505100
+[ NDCG_CUT_20 ] 0.478700
+E0: loss 0.0559
+
+[ MAP ] 0.251300
+[ P_10 ] 0.374000
+[ P_20 ] 0.321000
+[ NDCG_CUT_10 ] 0.418400
+[ NDCG_CUT_20 ] 0.398600
+E0: loss 0.0553
+
+[ MAP ] 0.260000
+[ P_10 ] 0.390000
+[ P_20 ] 0.346000
+[ NDCG_CUT_10 ] 0.429400
+[ NDCG_CUT_20 ] 0.419300
+E0: loss 0.0431
+
+[ MAP ] 0.265600
+[ P_10 ] 0.436000
+[ P_20 ] 0.359000
+[ NDCG_CUT_10 ] 0.449300
+[ NDCG_CUT_20 ] 0.426700
+E0: loss 0.0481
+
+[ MAP ] 0.260400
+[ P_10 ] 0.406000
+[ P_20 ] 0.338000
+[ NDCG_CUT_10 ] 0.441600
+[ NDCG_CUT_20 ] 0.417100
+E0: loss 0.0433
+
+[ MAP ] 0.268100
+[ P_10 ] 0.408000
+[ P_20 ] 0.342000
+[ NDCG_CUT_10 ] 0.431500
+[ NDCG_CUT_20 ] 0.409800
+E0: loss 0.0421
+
+[ MAP ] 0.250900
+[ P_10 ] 0.400000
+[ P_20 ] 0.357000
+[ NDCG_CUT_10 ] 0.423800
+[ NDCG_CUT_20 ] 0.417800
+E0: loss 0.0369
+Loading [Pickle|data/robust04/split_2/prepro.train.pkl] ... Finish! (00h00m02s)
+Loading [Pickle|data/robust04/split_2/prepro.test.pkl] ... Finish! (00h00m00s)
+
+[ MAP ] 0.274100
+[ P_10 ] 0.450000
+[ P_20 ] 0.388500
+[ NDCG_CUT_10 ] 0.511800
+[ NDCG_CUT_20 ] 0.475300
+E0: loss 0.1625
+
+[ MAP ] 0.276400
+[ P_10 ] 0.431300
+[ P_20 ] 0.374000
+[ NDCG_CUT_10 ] 0.489300
+[ NDCG_CUT_20 ] 0.455700
+E0: loss 0.0797
+
+[ MAP ] 0.297700
+[ P_10 ] 0.491700
+[ P_20 ] 0.413500
+[ NDCG_CUT_10 ] 0.547300
+[ NDCG_CUT_20 ] 0.500900
+E0: loss 0.0763
+
+[ MAP ] 0.277400
+[ P_10 ] 0.475000
+[ P_20 ] 0.389600
+[ NDCG_CUT_10 ] 0.519300
+[ NDCG_CUT_20 ] 0.471300
+E0: loss 0.0599
+
+[ MAP ] 0.287000
+[ P_10 ] 0.487500
+[ P_20 ] 0.413500
+[ NDCG_CUT_10 ] 0.531200
+[ NDCG_CUT_20 ] 0.493000
+E0: loss 0.0539
+
+[ MAP ] 0.285000
+[ P_10 ] 0.487500
+[ P_20 ] 0.403100
+[ NDCG_CUT_10 ] 0.538400
+[ NDCG_CUT_20 ] 0.489300
+E0: loss 0.0538
+
+[ MAP ] 0.268300
+[ P_10 ] 0.454200
+[ P_20 ] 0.372900
+[ NDCG_CUT_10 ] 0.502700
+[ NDCG_CUT_20 ] 0.453700
+E0: loss 0.0473
+
+[ MAP ] 0.287500
+[ P_10 ] 0.497900
+[ P_20 ] 0.394800
+[ NDCG_CUT_10 ] 0.559700
+[ NDCG_CUT_20 ] 0.491500
+E0: loss 0.0402
+
+[ MAP ] 0.280700
+[ P_10 ] 0.485400
+[ P_20 ] 0.402100
+[ NDCG_CUT_10 ] 0.534700
+[ NDCG_CUT_20 ] 0.485900
+E0: loss 0.0392
+
+[ MAP ] 0.260800
+[ P_10 ] 0.452100
+[ P_20 ] 0.374000
+[ NDCG_CUT_10 ] 0.501800
+[ NDCG_CUT_20 ] 0.452700
+E0: loss 0.0376
+Loading [Pickle|data/robust04/split_3/prepro.train.pkl] ... Finish! (00h00m01s)
+Loading [Pickle|data/robust04/split_3/prepro.test.pkl] ... Finish! (00h00m00s)
+
+[ MAP ] 0.211000
+[ P_10 ] 0.410000
+[ P_20 ] 0.324000
+[ NDCG_CUT_10 ] 0.449700
+[ NDCG_CUT_20 ] 0.400900
+E0: loss 0.2024
+
+[ MAP ] 0.238500
+[ P_10 ] 0.436000
+[ P_20 ] 0.362000
+[ NDCG_CUT_10 ] 0.495600
+[ NDCG_CUT_20 ] 0.456000
+E0: loss 0.0982
+
+[ MAP ] 0.227500
+[ P_10 ] 0.454000
+[ P_20 ] 0.353000
+[ NDCG_CUT_10 ] 0.517400
+[ NDCG_CUT_20 ] 0.451700
+E0: loss 0.0834
+
+[ MAP ] 0.234900
+[ P_10 ] 0.446000
+[ P_20 ] 0.368000
+[ NDCG_CUT_10 ] 0.497400
+[ NDCG_CUT_20 ] 0.454600
+E0: loss 0.0595
+
+[ MAP ] 0.237400
+[ P_10 ] 0.450000
+[ P_20 ] 0.364000
+[ NDCG_CUT_10 ] 0.500000
+[ NDCG_CUT_20 ] 0.454600
+E0: loss 0.0546
+
+[ MAP ] 0.253200
+[ P_10 ] 0.458000
+[ P_20 ] 0.399000
+[ NDCG_CUT_10 ] 0.508700
+[ NDCG_CUT_20 ] 0.483200
+E0: loss 0.0529
+
+[ MAP ] 0.217600
+[ P_10 ] 0.410000
+[ P_20 ] 0.321000
+[ NDCG_CUT_10 ] 0.460500
+[ NDCG_CUT_20 ] 0.413900
+E0: loss 0.0432
+
+[ MAP ] 0.259000
+[ P_10 ] 0.472000
+[ P_20 ] 0.390000
+[ NDCG_CUT_10 ] 0.536500
+[ NDCG_CUT_20 ] 0.492000
+E0: loss 0.0397
+
+[ MAP ] 0.247600
+[ P_10 ] 0.444000
+[ P_20 ] 0.373000
+[ NDCG_CUT_10 ] 0.488400
+[ NDCG_CUT_20 ] 0.458600
+E0: loss 0.0413
+
+[ MAP ] 0.237200
+[ P_10 ] 0.464000
+[ P_20 ] 0.364000
+[ NDCG_CUT_10 ] 0.514700
+[ NDCG_CUT_20 ] 0.458000
+E0: loss 0.0426
+Loading [Pickle|data/robust04/split_4/prepro.train.pkl] ... Finish! (00h00m01s)
+Loading [Pickle|data/robust04/split_4/prepro.test.pkl] ... Finish! (00h00m00s)
+
+[ MAP ] 0.292400
+[ P_10 ] 0.491800
+[ P_20 ] 0.402000
+[ NDCG_CUT_10 ] 0.534600
+[ NDCG_CUT_20 ] 0.481900
+E0: loss 0.1731
+
+[ MAP ] 0.305200
+[ P_10 ] 0.473500
+[ P_20 ] 0.394900
+[ NDCG_CUT_10 ] 0.516500
+[ NDCG_CUT_20 ] 0.477100
+E0: loss 0.0970
+
+[ MAP ] 0.285700
+[ P_10 ] 0.436700
+[ P_20 ] 0.389800
+[ NDCG_CUT_10 ] 0.497000
+[ NDCG_CUT_20 ] 0.473200
+E0: loss 0.0685
+
+[ MAP ] 0.285600
+[ P_10 ] 0.459200
+[ P_20 ] 0.381600
+[ NDCG_CUT_10 ] 0.504900
+[ NDCG_CUT_20 ] 0.465800
+E0: loss 0.0582
+
+[ MAP ] 0.288200
+[ P_10 ] 0.459200
+[ P_20 ] 0.384700
+[ NDCG_CUT_10 ] 0.496800
+[ NDCG_CUT_20 ] 0.460800
+E0: loss 0.0566
+
+[ MAP ] 0.276200
+[ P_10 ] 0.455100
+[ P_20 ] 0.384700
+[ NDCG_CUT_10 ] 0.497200
+[ NDCG_CUT_20 ] 0.461200
+E0: loss 0.0544
+
+[ MAP ] 0.283800
+[ P_10 ] 0.438800
+[ P_20 ] 0.370400
+[ NDCG_CUT_10 ] 0.493700
+[ NDCG_CUT_20 ] 0.455000
+E0: loss 0.0437
+
+[ MAP ] 0.274500
+[ P_10 ] 0.459200
+[ P_20 ] 0.371400
+[ NDCG_CUT_10 ] 0.510800
+[ NDCG_CUT_20 ] 0.458100
+E0: loss 0.0398
+
+[ MAP ] 0.284200
+[ P_10 ] 0.457100
+[ P_20 ] 0.399000
+[ NDCG_CUT_10 ] 0.495600
+[ NDCG_CUT_20 ] 0.469500
+E0: loss 0.0420
+
+[ MAP ] 0.279100
+[ P_10 ] 0.463300
+[ P_20 ] 0.382700
+[ NDCG_CUT_10 ] 0.511400
+[ NDCG_CUT_20 ] 0.465100
+E0: loss 0.0451
+Loading [Pickle|data/robust04/split_5/prepro.train.pkl] ... Finish! (00h00m02s)
+Loading [Pickle|data/robust04/split_5/prepro.test.pkl] ... Finish! (00h00m00s)
+
+[ MAP ] 0.302000
+[ P_10 ] 0.514900
+[ P_20 ] 0.419100
+[ NDCG_CUT_10 ] 0.548000
+[ NDCG_CUT_20 ] 0.494100
+E0: loss 0.1590
+
+[ MAP ] 0.323500
+[ P_10 ] 0.534000
+[ P_20 ] 0.450000
+[ NDCG_CUT_10 ] 0.575400
+[ NDCG_CUT_20 ] 0.527100
+##### SAVED (save/large0.6/5_0.323500) #####
+E0: loss 0.0782
+
+[ MAP ] 0.310200
+[ P_10 ] 0.497900
+[ P_20 ] 0.430900
+[ NDCG_CUT_10 ] 0.549000
+[ NDCG_CUT_20 ] 0.508700
+E0: loss 0.0576
+
+[ MAP ] 0.304200
+[ P_10 ] 0.487200
+[ P_20 ] 0.412800
+[ NDCG_CUT_10 ] 0.536500
+[ NDCG_CUT_20 ] 0.492100
+E0: loss 0.0510
+
+[ MAP ] 0.304000
+[ P_10 ] 0.489400
+[ P_20 ] 0.429800
+[ NDCG_CUT_10 ] 0.535800
+[ NDCG_CUT_20 ] 0.502900
+E0: loss 0.0477
+
+[ MAP ] 0.302900
+[ P_10 ] 0.502100
+[ P_20 ] 0.428700
+[ NDCG_CUT_10 ] 0.539200
+[ NDCG_CUT_20 ] 0.499600
+E0: loss 0.0453
+
+[ MAP ] 0.308000
+[ P_10 ] 0.506400
+[ P_20 ] 0.429800
+[ NDCG_CUT_10 ] 0.549200
+[ NDCG_CUT_20 ] 0.504900
+E0: loss 0.0437
+
+[ MAP ] 0.298200
+[ P_10 ] 0.495700
+[ P_20 ] 0.423400
+[ NDCG_CUT_10 ] 0.543600
+[ NDCG_CUT_20 ] 0.500400
+E0: loss 0.0377
+
+[ MAP ] 0.286100
+[ P_10 ] 0.451100
+[ P_20 ] 0.416000
+[ NDCG_CUT_10 ] 0.487500
+[ NDCG_CUT_20 ] 0.472600
+E0: loss 0.0349
+
+[ MAP ] 0.279100
+[ P_10 ] 0.446800
+[ P_20 ] 0.404300
+[ NDCG_CUT_10 ] 0.482600
+[ NDCG_CUT_20 ] 0.463200
+E0: loss 0.0425
